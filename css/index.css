@@ -57,7 +57,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -66,7 +66,7 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container, .about-container{
     width: 800px;
     margin: 0 auto;
 }
@@ -94,9 +94,17 @@ header nav a:hover {
     cursor: default;
   }
 
-.banner{
+.top {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+}
+
+.banner {
     margin-bottom: 35px;
 }
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -113,7 +121,32 @@ header nav a:hover {
 
 .middle-content {
     margin-bottom: 20px;
+    
+}
+
+.middle {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.middle .topic {
+    width: 350px;
     border-bottom: 1px dashed black;
+    margin: 25px;
+    padding: 10px;
+}
+
+.middle .topic button {
+    font-size: 16px;
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 10px 25px;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 15px;
+    background:white;
 }
 
 .middle-content h2 {
@@ -161,6 +194,10 @@ header nav a:hover {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom{
+    margin: 30px;
 }
 
 footer {
