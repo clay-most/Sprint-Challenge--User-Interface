@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex; 
+    margin-top: 25px;
+    margin-bottom: 35px;
+    align-items: flex-end;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    cursor: default;
+  }
+
+.banner{
+    margin-bottom: 35px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +130,24 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+#one {background:teal;}
+#two {background: gold;}
+#three {background: cadetblue;}
+#four {background: coral;}
+#five {background: crimson;}
+#six {background: forestgreen;}
+#seven {background: darkorchid;}
+#eight {background: hotpink;}
+#nine {background: indigo;}
+#ten {background: dodgerblue;}
+
 
 .bottom-content {
     display: flex;
