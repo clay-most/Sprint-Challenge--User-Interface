@@ -170,16 +170,16 @@ header nav a:hover {
     justify-content: center;
 }
 
-#one {background:teal;}
-#two {background: gold;}
-#three {background: cadetblue;}
-#four {background: coral;}
-#five {background: crimson;}
-#six {background: forestgreen;}
-#seven {background: darkorchid;}
-#eight {background: hotpink;}
-#nine {background: indigo;}
-#ten {background: dodgerblue;}
+.one {background:teal;}
+.two {background: gold;}
+.three {background: cadetblue;}
+.four {background: coral;}
+.five {background: crimson;}
+.six {background: forestgreen;}
+.seven {background: darkorchid;}
+.eight {background: hotpink;}
+.nine {background: indigo;}
+.ten {background: dodgerblue;}
 
 
 .bottom-content {
