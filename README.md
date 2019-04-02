@@ -44,9 +44,9 @@ Edit this document to include your answers after each question. Make sure to lea
 3. What are the 4 areas of the box model?
 
     Content
-    Border
     Padding 
-    Content
+    Border
+    Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
@@ -54,7 +54,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-    Git facilitates version control which lets developers work together on the same project and fix problems easier when a change breaks the program.
+    Git facilitates version control which lets developers work together on the same project and makes fixing problems easier when a change breaks the program.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
